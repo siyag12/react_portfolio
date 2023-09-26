@@ -55,7 +55,7 @@ export const Experience = () => {
                         <article className={'experience__details'}>
                             <BsPatchCheckFill className={'experience__details-icon'}/>
                             <div>
-                                <h4> Data Structures & Algorithm Design</h4>
+                                <h4> DSA</h4>
                                 <small className={'text-light'}>Intermediate</small>
                             </div>
                         </article>
@@ -63,7 +63,7 @@ export const Experience = () => {
                         <article className={'experience__details'}>
                             <BsPatchCheckFill className={'experience__details-icon'}/>
                             <div>
-                                <h4>Database Management</h4>
+                                <h4>DBMS</h4>
                                 <small className={'text-light'}>Intermediate</small>
                             </div>
                         </article>

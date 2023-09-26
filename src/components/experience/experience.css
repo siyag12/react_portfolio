@@ -20,6 +20,8 @@
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
 }
 
 .experience__container > div h3 {

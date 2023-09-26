@@ -20,6 +20,8 @@
 .portfolio__item:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
 }
 
 .portfolio__item-img{

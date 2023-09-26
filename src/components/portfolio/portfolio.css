@@ -54,8 +54,22 @@
 
 /* Media Queries (Small Devices) */
 @media screen and (max-width: 600px) {
-.portfolio__container {
+    #portfolio {
+        margin-top: 52rem;
+    }
+    
+    .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .portfolio__item {
+        width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    .portfolio__item-img{
+        height: 8rem;
     }
 }

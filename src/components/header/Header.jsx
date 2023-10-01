@@ -1,7 +1,7 @@
-import React from 'react'
-import './header.css'
+import React from "react";
+import "./header.css";
 import CTA from "./CTA";
-import ME from '../../assets/me.png'
+import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 export const Header = () => {
     return (
@@ -11,17 +11,20 @@ export const Header = () => {
                 <h1> Siya Garg</h1>
                 <h5 className="text-light"> ML/DL Engineer</h5>
 
-                <CTA/>
-                <HeaderSocials/>
+                <CTA />
+                <HeaderSocials />
 
                 <div className="me">
-                    <img src={ME} alt="ME"/>
+                    <img src={ME} alt="ME" />
                 </div>
 
-                <a href={"#contact"} className="scroll__down"> Scroll Down</a>
+                <a href={"#contact"} className="scroll__down">
+                    {" "}
+                    Scroll Down
+                </a>
             </div>
         </header>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

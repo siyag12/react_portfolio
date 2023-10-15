@@ -28,15 +28,15 @@ const data = [
     },
     {
         id: 4,
-        image: P4,
-        title: 'Neural Machine Translation',
-        link: ''
+        image: P5,
+        title: 'Distracted Driver Detection',
+        link: 'https://github.com/drishyae22/Distracted-Driver-Detection'
     },
     {
         id: 5,
-        image: P5,
-        title: 'Distracted Driver Detection',
-        link: ''
+        image: P4,
+        title: 'Neural Machine Translation',
+        link: 'https://github.com/drishyae22/Neural-Machine-Translation'
     },
     {
         id: 6,

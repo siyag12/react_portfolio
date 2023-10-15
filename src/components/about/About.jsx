@@ -38,11 +38,6 @@ export const About = () => {
                         <br></br>I am an enthusiastic and chearful person. I am passionate about Machine Learning and have done numerous projects in
                         Computer Vision and NLP domains.
                     </p>
-
-                    <a href={"#contact"} className={"btn btn"}>
-                        {" "}
-                        Let's Talk{" "}
-                    </a>
                 </div>
             </div>
         </section>

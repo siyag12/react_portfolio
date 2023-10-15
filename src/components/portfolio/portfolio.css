@@ -1,12 +1,14 @@
-/* #portfolio {
+#portfolio {
     height: 95vh;
-} */
+    /*width: 85vw;*/
+}
 
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2.5rem;
     justify-content: center;
+    align-items: center;
 }
 
 .portfolio__item {
@@ -29,6 +31,7 @@
     overflow: hidden;
     aspect-ratio: 19 / 9 !important;
     height: 10rem;
+    width: 100%;
 }
 
 .portfolio__item h3 {
@@ -46,6 +49,10 @@
 
 /* Media Queries (Medium Devices) */
 @media screen and (max-width: 1024px ) {
+    #portfolio {
+        margin-top: 30rem;
+        margin-bottom: 30rem;
+    }
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;

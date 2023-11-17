@@ -45,6 +45,7 @@ header {
     border-radius: 10rem 10rem 0 0;
     overflow: auto;
     padding: 1.5rem 1rem 1rem 1rem;
+    scroll-behavior: smooth;
 }
 
 .scroll__down {
